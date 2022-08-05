@@ -1,0 +1,12 @@
+Task: Calculate DeMorgan's Law
+
+    DEFS:
+        - Intersection: contains all elements of set1 that are also in set2
+        - Union: set of all elements in both sets
+
+    - Calc (A U B)′ -- all numbers not in union set
+            A′ ∩ B′ -- compute not, then do intersection
+
+- Read in sets from file
+- calculate union and compare against number universe
+- then calculate number universe by
